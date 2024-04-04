@@ -108,7 +108,7 @@ Once you've started `op-geth`, you can start `op-node`.
 
 {<h3>Navigate to your op-node directory</h3>}
 
-Find the directory where you built the `op-node` binary.
+Find and navigate to the directory where you built the `op-node` binary. Usually found in `op-node`.
 
 {<h3>Copy in the JWT secret</h3>}
 
@@ -128,6 +128,8 @@ export L1_RPC_URL=...  # URL for the L1 node to sync from
 export L1_RPC_KIND=... # RPC type (alchemy, quicknode, infura, parity, nethermind, debug_geth, erigon, basic, any)
 export L1_BEACON_URL=... # URL address for the L1 Beacon-node HTTP endpoint to use.
 ```
+
+For more information on the beacon URL consult ../../notices/ecotone-changes.mdx
 
 {<h3>Start op-node</h3>}
 
